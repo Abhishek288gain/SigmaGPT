@@ -23,7 +23,7 @@ const port = 8080;
 app.use(express.json());
 app.use(cors({
     origin: [
-      "http://localhost:5173", "https://sigmagpt-sable.vercel.app/"
+      "http://localhost:5173", "https://sigmagpt-sable.vercel.app"
     ],
     credentials: true
 }));
